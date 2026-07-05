@@ -40,7 +40,7 @@ The HTML pages were converted into C source files using a Perl-based conversion 
 
 ## Project Demonstration
 
-![Industrial Dashboard](Images/04_dashboard.png)
+![Industrial Dashboard](images/dashboard.png)
 
 ---
 
@@ -92,7 +92,7 @@ The board includes:
 
 ### Hardware
 
-![Hardware](Images/01_hardware.jpg)
+![Hardware](images/Hardware.png)
 
 </details>
 
@@ -116,7 +116,7 @@ SPI Configuration
 
 ### SPI Configuration
 
-![SPI Configuration](Images/02_spi_configuration.png)
+![SPI Configuration](images/spi_config.png)
 
 </details>
 
@@ -140,7 +140,7 @@ The firmware verifies the W5500 version and applies the network settings before 
 
 ### Network Configuration
 
-![Network Configuration](Images/03_network_configuration.png)
+![Network Configuration](images/network_config.png)
 
 </details>
 
@@ -161,7 +161,7 @@ These files are stored in Flash memory and served directly by the embedded web s
 
 ### HTML Integration
 
-![HTML Integration](Images/05_webpage_integration.png)
+![HTML Integration](images/html_integration.png)
 
 </details>
 
@@ -177,7 +177,7 @@ The page authenticates the user before allowing access to the Industrial IoT das
 
 ### Login Page
 
-![Login](Images/05_login_page.png)
+![Login](images/login_page.png)
 
 </details>
 
@@ -193,7 +193,7 @@ The dashboard demonstrates how industrial monitoring data can be presented using
 
 ### Dashboard
 
-![Dashboard](Images/04_dashboard.png)
+![Dashboard](images/dashboard.png)
 
 </details>
 
@@ -214,25 +214,10 @@ The UART terminal confirms:
 
 ### UART Output
 
-![UART Output](Images/06_uart_output.png)
+![UART Output](images/uart_output.png)
 
 </details>
 
 ---
 
-## Repository Structure
 
-```text
-STM32-W5500-Embedded-WebServer
-│
-├── Core
-├── Drivers
-├── Inc
-├── Src
-├── W5500
-├── Images
-├── webpage.c
-├── webpage.h
-├── README.md
-└── STM32F446RCTx.ioc
-```
